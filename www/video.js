@@ -6,7 +6,7 @@ var VideoPlayer = function () {};
 * @param url           The url to play
 */
 VideoPlayer.prototype.play = function(url) {
-    cordova.exec(null, null, "VideoPlayer", "playVideo", [url]);
+    cordova.exec(null, null, "KWVideoPlayer", "playVideo", [url]);
 };
 
 var videoPlayer = new VideoPlayer();
