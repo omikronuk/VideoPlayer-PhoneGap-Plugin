@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.phonegap.plugins.video" version="0.1.0">
-  <name>Video Player</name>
+  <name>KW Video Player</name>
   <description>Android video player plugin</description>
   <license>MIT</license>
   <js-module src="www/video.js" name="VideoPlayer">
     <clobbers target="window.plugins.videoPlayer"/>
   </js-module>
   <engines>
-    <engine name="cordova" version="3.0.0"/>
+    <engine name="cordova" version="3.0.1"/>
   </engines>
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
