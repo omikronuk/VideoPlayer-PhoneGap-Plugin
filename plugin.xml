@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.phonegap.plugins.kwvideo" version="0.1.0">
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.phonegap.plugins.kwvideo" version="0.1.1">
   <name>KWVideo Player</name>
   <description>Android video player plugin</description>
   <license>MIT</license>
